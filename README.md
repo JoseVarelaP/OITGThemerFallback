@@ -8,7 +8,7 @@ OpenITG will take care of the rest and start to run the commands along side your
 If any command that you have collides with the ones from OITGThemerFallback, the one from your metrics will always be loaded instead.
 ```Python
 [Global]
-FallbackTheme=fallback
+FallbackTheme=OITGThemerFallback
 ```
 
 If you really need to modify this file a lot for your own theme, then please package it on your theme but with a different Fallback name, to avoid confusion and breaking if you're planning to re-obtaining the regular OITGThemerFallback.
