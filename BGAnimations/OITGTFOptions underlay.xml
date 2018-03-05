@@ -1,0 +1,12 @@
+<ActorFrame><children>
+	<Layer Font="Common Normal" Text=" " OnCommand="%function(self) 
+	self:x(SCREEN_CENTER_X+270)
+	self:y(SCREEN_CENTER_Y+160)
+	self:horizalign('right')
+	self:shadowlength(1)
+	self:zoom(0.4)
+	self:diffuse(0.6,0.6,0.6,0.5)
+
+	self:settext('OITGThemerFallback r'.. OITGThemerFallbackRevisionNumber())
+	end" />
+</children></ActorFrame>

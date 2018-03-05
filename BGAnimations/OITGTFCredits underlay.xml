@@ -1,0 +1,94 @@
+<ActorFrame><children>
+	
+	<BGAnimation 
+	UseScroller="1"
+	SecondsPerItem="0.78" 
+	NumItemsToDraw="21" 
+	ItemPaddingStart="10"
+	ItemPaddingEnd="0"
+	OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y"
+	TransformFunction="function(self,offset,itemIndex,numItems) self:y(offset*24); end">
+	<children>
+		<Layer Type="BitmapText" Text="OpenITGThemerFallback" File="_shared2" OnCommand="zoom,0.7;diffuse,#D57676;ztest,1" />
+		<Layer Type="BitmapText" Text="A framework to make 3.9 theme porting easier by Jose_Varela" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+
+		<Layer Type="BitmapText" Text="Special Thanks" File="_shared2" OnCommand="zoom,0.7;diffuse,#D57676;ztest,1" />
+		<Layer Type="BitmapText" Text="MadKAT" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="For Help, Suggestions and coming up with the idea in the first place." File="_shared2" OnCommand="zoom,0.4;diffuse,#08A5BF;ztest,1" />
+
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+
+		<Layer Type="BitmapText" Text="Jousway" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="Assistance in some areas and Ideas." File="_shared2" OnCommand="zoom,0.4;diffuse,#08A5BF;ztest,1" />
+
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+
+		<Layer Type="BitmapText" Text="willycel123" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="Massive Feedback and suggestions." File="_shared2" OnCommand="zoom,0.4;diffuse,#08A5BF;ztest,1" />
+
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+
+		<Layer Type="BitmapText" Text="LDani" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="Feedback." File="_shared2" OnCommand="zoom,0.4;diffuse,#08A5BF;ztest,1" />
+
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+
+		<Layer Type="BitmapText" Text="TaroNuke" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="Feedback, Command Assistance, Functions, Help." File="_shared2" OnCommand="zoom,0.4;diffuse,#08A5BF;ztest,1" />
+
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+
+		<Layer Type="BitmapText" Text="AJ 187" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="For inspiring me to make theme porting." File="_shared2" OnCommand="zoom,0.4;diffuse,#08A5BF;ztest,1" />
+
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+
+		<Layer Type="BitmapText" Text="Geovanni Mattos" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="Assistance in the past and present (Even if it is SM5)." File="_shared2" OnCommand="zoom,0.4;diffuse,#08A5BF;ztest,1" />
+
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+
+		<Layer Type="BitmapText" Text="Copyright (c) 2018 Jose_Varela" File="_shared2" OnCommand="zoom,0.4;diffuse,#08A5BF;ztest,1" />
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="The OpenITG simple graphics configuration - version 0.2::OpenITG resolution switcher - version 1.0,::Simple PrefsRows API for 3.95/OpenITG, version 1.2 ::are Copyright (c) Mark Cannon ('Vyhd')::Licensed under Creative Commons Attribution-Share Alike 3.0 Unported" File="_shared2" OnCommand="zoom,0.4;diffuse,#08A5BF;ztest,1" />
+		
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+
+		<Layer Type="BitmapText" Text="Permission is hereby granted, free of charge, to any person obtaining a copy::of this software and associated documentation files (the 'Software'), to deal::in the Software without restriction, including without limitation the rights::to use, copy, modify, merge, publish, distribute, sublicense, and/or sell::copies of the Software, and to permit persons to whom the Software is::furnished to do so, subject to the following conditions:" File="_shared2" OnCommand="zoom,0.4;diffuse,#08A5BF;ztest,1" />
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.4;diffuse,#08A5BF;ztest,1" />
+		
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+
+		<Layer Type="BitmapText" Text="The above copyright notice and this permission notice shall be included in all::copies or substantial portions of the Software." File="_shared2" OnCommand="zoom,0.4;diffuse,#08A5BF;ztest,1" />
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR::IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,::FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE::AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER::LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,::OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE::SOFTWARE." File="_shared2" OnCommand="zoom,0.4;diffuse,#08A5BF;ztest,1" />
+
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+		<Layer Type="BitmapText" Text="" File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+
+		<Layer Type="BitmapText" Text="Press ESC to return." File="_shared2" OnCommand="zoom,0.7;diffuse,#FFFFFF;ztest,1" />
+	</children>
+</BGAnimation>
+
+</children></ActorFrame>
