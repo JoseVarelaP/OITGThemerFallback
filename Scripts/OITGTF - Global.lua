@@ -270,7 +270,15 @@ end
 
 
 
--- PrefsRow Manager
+--[[
+Simple PrefsRows API for 3.95/OpenITG, version 1.2
+Licensed under Creative Commons Attribution-Share Alike 3.0 Unported
+(http://creativecommons.org/licenses/by-sa/3.0/)
+
+Base definitions and templates for StepMania LUA options lists.
+Written by Mark Cannon ("Vyhd") for OpenITG (http://www.boxorroxors.net/)
+All I ask is that you keep this notice intact and don't redistribute in bytecode.
+--]]
 
 function CreateOptionRow( Params, Names, LoadFctn, SaveFctn )
 	if not Params.Name then return nil end
@@ -405,7 +413,16 @@ function CreateSimplePrefsRowBool( prefname )
 	return CreatePrefsRowBool( Params, prefname )
 end
 
--- Resolution Manager
+--[[
+OpenITG resolution switcher, version 1.0
+Licensed under Creative Commons Attribution-Share Alike 3.0 Unported
+(http://creativecommons.org/licenses/by-sa/3.0/)
+
+These probably won't work unless they're used on the same screen. You've been warned.
+
+Written by Mark Cannon ("Vyhd") for OpenITG (http://www.boxorroxors.net/)
+All I ask is that you keep this notice intact and don't redistribute in bytecode.
+--]]
 
 -- used in a few places, so we keep it here.
 -- checks to see if two floats are equal, within error
@@ -555,6 +572,16 @@ function LuaSetResolution( ratio )
 
 	return CreateOptionRow( Params, Names, Load, Save )
 end
+
+--[[
+OpenITG simple graphics configuration, version 0.2
+Licensed under Creative Commons Attribution-Share Alike 3.0 Unported
+(http://creativecommons.org/licenses/by-sa/3.0/)
+
+These probably won't work unless they're used on the same screen. You've been warned.
+Written by Mark Cannon ("Vyhd") for OpenITG (http://www.boxorroxors.net/)
+All I ask is that you keep this notice intact and don't redistribute in bytecode.
+--]]
 
 -- aliases for the different config levels
 local GraphicsLevels = { "LOW", "MEDIUM", "HIGH", "MAXIMUM" }
