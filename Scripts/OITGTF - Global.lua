@@ -3,7 +3,7 @@ function TakeMachineProfile()
 end
 
 function OITGThemerFallbackRevisionNumber()
-	return string.format("% 4d",413)
+	return string.format("% 4d",422)
 end
 
 function GlobalCenterX(n)
