@@ -3,15 +3,15 @@ function TakeMachineProfile()
 end
 
 function OITGThemerFallbackRevisionNumber()
-	return string.format("% 4d",363)
+	return string.format("% 4d",413)
 end
 
 function GlobalCenterX(n)
-	return n - 320
+	return SCREEN_CENTER_X + n - 320
 end
 
 function GlobalCenterY(n)
-	return n - 240
+	return SCREEN_CENTER_Y + n - 240
 end
 
 -- I do know that OpenITG has a function to give the name, but i decided to make this because i was thinking of bringing this system
@@ -27,7 +27,7 @@ function WarnAboutCourseMod()
 		BuildName = 'NotITG'
 	end
 	if not OPENITG and not FUCK_EXE then
-		BuildName = 'whatever the hell youre playing'
+		BuildName = 'whatever the hell you\'re playing'
 	end
 
 	SCREENMAN:SystemMessage("I'm sorry, but Course Modification doesn't exist on "..BuildName..'.')
