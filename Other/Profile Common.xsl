@@ -156,115 +156,115 @@
 					}
 				</script>
 				<style type='text/css'>
-A, A:visited	{
-	color: #0072C2;
-}
-A:hover, A:active	{
-	color: #FF6E00;
-}
-
-BODY	{
-	font-family: Arial,Verdana,sans-serif;
-	font-size: 11px;
-	color: #3D5066;
-	background: #A1ACB9;
-}
-
-TD	{
-	background: #FFFFFF;
-	vertical-align: top;
-}
-
-.pageheader	{
-	background: #E1E5EA;
-}
-
-.pagefooter {
-	background: #E1E5EA;
-}
-
-.clear	{
-	background: #F4F6F7;
-}
-
-.valuename	{
-	margin-bottom: 5px;
-}
-
-.visible {
-}
-
-.hidden {
-	display:none
-}
-
-TABLE	{
-	font-size: 11px;
-	margin-top: 2px;
-	margin-bottom: 5px;
-	background: #DBE0E5;
-}
-
-SELECT	{
-	font-size: 11px;
-	background: #F4F6F7;
-}
-
-TH	{
-	font-size: 11px;
-	font-weight: bold;
-	text-align: left;
-	color: #3D5066;
-}
-
-TH.main	{
-	font-size: 12px;
-	font-weight: bold;
-	text-align: left;
-	color: #3D5066;
-}
-
-H1	{
-	margin-top: 0px;
-	margin-bottom: 8px;
-	font-size: 16px;
-	font-weight: bold;
-	color: #005CB1;
-}
-
-H2	{
-	margin-top: 0px;
-	margin-bottom: 5px;
-	font-size: 12px;
-	font-weight: bold;
-	color: #3D5066;
-}
-
-H3	{
-	margin-top: 0px;
-	margin-bottom: 2px;
-	font-size: 11px;
-	font-weight: bold;
-	color: #3D5066;
-}
-
-HR	{
-	height: 1px;
-	color: #DBE0E5;
-}
-
-.dyndata	{
-	color: #005CB1;
-}
-
-.titlename	{
-	font-size: 10px;
-}
-
-.titlevalue {
-	font-size: 10px;
-	font-weight: bold;
-}
+					A, A:visited	{
+						color: #0072C2;
+					}
+					A:hover, A:active	{
+						color: #FF6E00;
+					}
+					
+					BODY	{
+						font-family: Arial,Verdana,sans-serif;
+						font-size: 11px;
+						color: #3D5066;
+						background: #A1ACB9;
+					}
+					
+					TD	{
+						background: #FFFFFF;
+						vertical-align: top;
+					}
+					
+					.pageheader	{
+						background: #E1E5EA;
+					}
+					
+					.pagefooter {
+						background: #E1E5EA;
+					}
+					
+					.clear	{
+						background: #F4F6F7;
+					}
+					
+					.valuename	{
+						margin-bottom: 5px;
+					}
+					
+					.visible {
+					}
+					
+					.hidden {
+						display:none
+					}
+					
+					TABLE	{
+						font-size: 11px;
+						margin-top: 2px;
+						margin-bottom: 5px;
+						background: #DBE0E5;
+					}
+					
+					SELECT	{
+						font-size: 11px;
+						background: #F4F6F7;
+					}
+					
+					TH	{
+						font-size: 11px;
+						font-weight: bold;
+						text-align: left;
+						color: #3D5066;
+					}
+					
+					TH.main	{
+						font-size: 12px;
+						font-weight: bold;
+						text-align: left;
+						color: #3D5066;
+					}
+					
+					H1	{
+						margin-top: 0px;
+						margin-bottom: 8px;
+						font-size: 16px;
+						font-weight: bold;
+						color: #005CB1;
+					}
+					
+					H2	{
+						margin-top: 0px;
+						margin-bottom: 5px;
+						font-size: 12px;
+						font-weight: bold;
+						color: #3D5066;
+					}
+					
+					H3	{
+						margin-top: 0px;
+						margin-bottom: 2px;
+						font-size: 11px;
+						font-weight: bold;
+						color: #3D5066;
+					}
+					
+					HR	{
+						height: 1px;
+						color: #DBE0E5;
+					}
+					
+					.dyndata	{
+						color: #005CB1;
+					}
+					
+					.titlename	{
+						font-size: 10px;
+					}
+					
+					.titlevalue {
+						font-size: 10px;
+						font-weight: bold;
+					}
 			</style>  
 
 			</head>

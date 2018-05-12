@@ -14,25 +14,21 @@ function GlobalCenterY(n)
 	return SCREEN_CENTER_Y + n - 240
 end
 
--- I do know that OpenITG has a function to give the name, but i decided to make this because i was thinking of bringing this system
--- To 3.95 builds eventually, when i get the time and if i don't get frustrated with the system from 3.95.
-function ThemeName() local str = string.sub(THEME:GetPath(2,'','_blank.png'),9) return string.sub(str,1,string.find(str,'/')-1) end
-
 function WarnAboutCourseMod()
 	BuildName = ''
-	if OPENITG then
-		BuildName = 'OpenITG'
-	end
-	if FUCK_EXE then
-		BuildName = 'NotITG'
-	end
-	if not OPENITG and not FUCK_EXE then
-		BuildName = 'whatever the hell you\'re playing'
-	end
+	if OPENITG then BuildName = 'OpenITG' end
+	if FUCK_EXE then BuildName = 'NotITG' end
+	if not OPENITG and not FUCK_EXE then BuildName = 'whatever the hell you\'re playing' end
 
 	SCREENMAN:SystemMessage("I'm sorry, but Course Modification doesn't exist on "..BuildName..'.')
 end
 
+function SignatureMissingCheck()
+	if not PREFSMAN:GetPreference('MemoryCards') then
+		return ""
+	end
+	return "SIGNATURE MISSING/FAILED"
+end
 
 function OptionRowBase(name,modList)
 	local t = {
@@ -146,7 +142,7 @@ function ReceptorHeightTop()
 	-- Trance Machina uses the same one found on OITGThemerFallback.
 
 	if TakeMachineProfile().OITGTF_HeightPositioningForReceptors == true and TakeMachineProfile().OITGTF_HeightPositioningForReceptors_Cyberia == false then
-		if ThemeName() == Cyberia_Style_Title or ThemeName() == AOI_Title then
+		if THEME:GetCurThemeName() == Cyberia_Style_Title or THEME:GetCurThemeName() == AOI_Title then
 			CurrentPosition_TOP = Cyberia_Position_TOP
 		else
 			CurrentPosition_TOP = Fallback_Position_TOP
@@ -179,7 +175,7 @@ function ReceptorHeightBottom()
 	-- Trance Machina uses the same one found on OITGThemerFallback.
 
 	if TakeMachineProfile().OITGTF_HeightPositioningForReceptors == true and TakeMachineProfile().OITGTF_HeightPositioningForReceptors_Cyberia == false then
-		if ThemeName() == Cyberia_Style_Title or ThemeName() == AOI_Title then
+		if THEME:GetCurThemeName() == Cyberia_Style_Title or THEME:GetCurThemeName() == AOI_Title then
 			CurrentPosition_REV = Cyberia_Position_REV
 		else
 			CurrentPosition_REV = Fallback_Position_REV
